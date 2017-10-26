@@ -195,6 +195,31 @@ a {
 .asterisk {
     color: red;
 }
+
+.about-us{
+
+}
+.service-pics{
+  display: block;
+  margin-top: 3px;
+}
+
+.service-pics img:hover{
+
+    -webkit-filter:contrast(200%);
+    -moz-filter:contrast(200%);
+    filter: url(#contrast);
+    filter:contrast(200%);
+}
+.service-pics img{
+  width: 23.71%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  border: #FFFFFF solid 4px;
+
+
+}
 .sectiontwo {
     background-color: #9fb0c6;
     margin: 0;
@@ -230,7 +255,7 @@ a {
 .sectionthree a {
     color: #f1830e !important;
     text-shadow: 2px 2px 38px #fff;
-    font-style: italic; 
+    font-style: italic;
     font-weight: bold;
     font-size: 2vw;
     text-align: center;
@@ -281,7 +306,7 @@ blockquote{
   }
 
 blockquote::before{
-  content: "\201C"; 
+  content: "\201C";
   font-family: Georgia, serif;
   font-size: 60px;
   font-weight: bold;
@@ -332,12 +357,12 @@ footer p {
 }
 
 
-@media (max-width: 415px) {  
-    
+@media (max-width: 415px) {
+
     /*$burger--thickness: 4px;
     .burger {
         $width: 28px;
-        
+
         display: inline-block;
       border: 0;
         background: none;
@@ -349,13 +374,13 @@ footer p {
         width: $width;
 
         transition: border-bottom 1s ease-in-out;
-        -webkit-transition: border-bottom 1s ease-in-out; 
+        -webkit-transition: border-bottom 1s ease-in-out;
 
         // Fix for extra space in Firefox
         &::-moz-focus-inner {
             border: 0;
             padding: 0;
-        }    
+        }
 
         &:before {
             content: "";
@@ -363,8 +388,8 @@ footer p {
             border-bottom: $burger--thickness solid currentColor;
             width: 100%;
             margin-bottom: 5px;
-            transition: transform 0.5s ease-in-out;    
-            -webkit-transition: -webkit-transform 0.5s ease-in-out;        
+            transition: transform 0.5s ease-in-out;
+            -webkit-transition: -webkit-transform 0.5s ease-in-out;
         }
 
         &:after {
@@ -389,32 +414,32 @@ footer p {
 
       &:before {
         transform: rotate(-405deg) translateY(1px) translateX(-3px);
-        -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);      
+        -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
         transition: transform 0.5s ease-in-out;
         -webkit-transition: -webkit-transform 0.5s ease-in-out;
       }
 
       &:after {
-        transform: rotate(405deg) translateY(-4px) translateX(-5px); 
-        -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);       
+        transform: rotate(405deg) translateY(-4px) translateX(-5px);
+        -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
         transition: transform 0.5s ease-in-out;
         -webkit-transition: -webkit-transform 0.5s ease-in-out;
       }
     }
 
-    
+
     $navigation__transition: max-height 0.5s ease-in-out;
 
     .navigation {
       overflow: hidden;
       max-height: 0;
-      
+
       transition: $navigation__transition;
     }
 
     .burger-check:checked ~ .navigation {
       max-height: 500px;
-      
+
       transition: $navigation__transition;
     }
     */
@@ -489,7 +514,7 @@ footer p {
         display: inline;
     }
     .sectionfour {
-        padding: 40px 7px; 
+        padding: 40px 7px;
     }
     .sectionfour span {
         margin-left: 180px;
